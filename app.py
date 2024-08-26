@@ -12,7 +12,7 @@ st.title("Maximizing Profit with Calculus! 📈")
 st.write("""
 Ever wondered how companies determine the best price for their products? It’s not just guesswork—there’s a fascinating science behind it, and it involves calculus! 📊✨
 
-Let’s dive into a case study to understand how derivatives can help us find the optimal price for a new smartphone.
+Let’s dive into a case study to understand how derivatives can help us find the optimal price for a new product.
 """)
 
 # Developer credit
@@ -50,4 +50,4 @@ st.write(f"The optimal price to maximize profit is: ${optimal_price:.2f}")
 
 # Validate and test the pricing strategy
 st.subheader("Step 5: Testing Your Price")
-st.write(f"Based on our calculations, the price of **${optimal_price:.2f}** per smartphone should maximize your profit.")
+st.write(f"Based on our calculations, the price of **${optimal_price:.2f}** per product should maximize your profit.")
