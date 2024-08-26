@@ -5,7 +5,7 @@ import sympy as sp
 api_key = st.secrets["api_key"]
 
 # Example usage (This is just a demonstration, use the API key where necessary in your app)
-st.write(f"Your API key is: {api_key}")
+#st.write(f"Your API key is: {api_key}")
 
 # App title and description
 st.title("Maximizing Profit with Calculus! 📈")
