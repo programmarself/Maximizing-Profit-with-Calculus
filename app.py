@@ -28,10 +28,8 @@ st.subheader("Step 2: Input Your Demand and Revenue Function")
 max_price = st.number_input("Maximum Price ($)", value=200, step=10)
 max_units = st.number_input("Maximum Units Sold", value=1000, step=50)
 
-# Profit equation
+# Calculate the profit function based on user inputs
 st.subheader("Step 3: Setting Up the Profit Equation")
-st.write("We assume the profit function is a quadratic equation based on the price of the smartphone.")
-
 price = sp.Symbol('x')
 revenue = price * (max_units - (max_units / max_price) * price)
 cost = fixed_cost + variable_cost_per_unit * (max_units - (max_units / max_price) * price)
